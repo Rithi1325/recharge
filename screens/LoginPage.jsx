@@ -14,10 +14,6 @@ const LoginPage = ({ navigation }) => {
     setCountryPickerVisible(false);
   };
 
-
-
-  
-
   const handleNext = () => {
     const mobilePattern = /^[0-9]{10}$/;
     if (!mobile || !mobilePattern.test(mobile)) {
